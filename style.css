@@ -1,0 +1,54 @@
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin:50px;
+    color: beige;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2018.2F07.2F30.2Ffd18a69a-7d7e-46f0-97c7-5c39915aca03.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgTWFyZ291aWxsYXRwaG90b3MvVGhpbmtzdG9jayAvIEZlbW1lIEFjdHVlbGxl/gateau-leger-au-chocolat.jpeg');
+}
+img{
+    height: 120px;
+    float:left;
+    margin-right:20px;
+}
+p{
+    font-style: italic;
+    color:blanchedalmond;
+    font-size: 30px;
+}
+#box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A B"
+    ;
+}
+
+#preparation{
+    color:beige;
+    text-align: center;
+    list-style-position: inside;
+    grid-area: A;
+}
+h2{
+    color: beige;
+}
+span{
+    font-weight: bold;
+}
+footer{
+    color:beige;
+}
+#infos{
+    grid-area: B;
+    color:beige;
+}
+i{
+    margin:20px;
+}
+
+
